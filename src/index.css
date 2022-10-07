@@ -1,3 +1,19 @@
+:root {
+  --cosmic-cobalt: #402e8cff;
+  --xiketic: #0f0b20ff;
+  --slate-blue: #7863d3ff;
+  --gainsboro: #d8dbe2ff;
+  --white: #fbfbfbff;
+}
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Barlow Condensed', sans-serif;
+
+html {
+  padding: 0
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +21,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--xiketic);
+  color: var(--cosmic-cobalt);
 }
 
 code {
