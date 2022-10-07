@@ -6,11 +6,11 @@ const Welcome = () => {
                     <div className='purple-box'>
                         <h1 className='top-h1'>Davi Lux</h1>
                         <h2>Web Developer / JavaScript Engineer</h2>
-                        <p>
+                        {/* <p>
                         Code is my favorite creative medium.<br />
                         <br />
                         My mission is to use technology to make the world a better place.
-                        </p>
+                        </p> */}
                     </div>
                     <h4>Scroll down</h4>
 

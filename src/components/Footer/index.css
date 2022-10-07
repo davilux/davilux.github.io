@@ -1,0 +1,7 @@
+.footer {
+    background-color: var(--xiketic);
+    height: 20px;
+    width: 100vw;
+    padding-left:50vw;
+    padding-right:50vw;
+}
