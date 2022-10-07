@@ -1,7 +1,9 @@
-import Home from './Home'
 import Navbar from './Navbar'
-import About from './About'
-import Contact from './Contact'
 import Layout from './Layout'
+import Welcome from './Welcome'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
 
-export {Home, Navbar, About, Contact, Layout}
+
+export {Navbar, Layout, Welcome, Projects, About, Contact}
