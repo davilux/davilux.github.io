@@ -3,7 +3,7 @@ import './index.css'
 const Footer = () => {
     return (
         <section className='footer'>
-                Footer
+            <h3 className='darkmode'>darkMode = true;</h3>
         </section>
     )
 }

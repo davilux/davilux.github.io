@@ -1,7 +1,16 @@
 .footer {
     background-color: var(--xiketic);
-    height: 20px;
+    /* background-color: white; */
+    height: 40px;
     width: 100vw;
-    padding-left:50vw;
-    padding-right:50vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+/* TODO: clicking  "darkMode = true;" will toggle the site into light mode. */
+
+.darkmode{
+    padding:10px
 }
