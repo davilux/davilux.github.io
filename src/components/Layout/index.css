@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size:48px;
+    font-weight: normal;
+    color: var(--lavender-white)
+}
+
+h3{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 10pt;
+    color: var(--russian-violet);
+}
+
+.wrapper{
+    scroll-snap-type: y mandatory;
+    max-height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+
+.welcome, .about, .projects, .contact{
+    scroll-snap-align: start;
+    height: calc(100vh - 60px);
+    border: 1px solid white;
+}
+
+/* TODO:
+- Style for different viewports.
+max width: 900
+*/

@@ -5,7 +5,14 @@ import {NavHashLink} from 'react-router-hash-link'
 const Navbar = () => {
     return(
         <div className='nav-bar'>
-            <nav>
+             <nav>
+
+                {/* <NavHashLink className='inactiveNavHashLink' smooth to="/#about">About</NavHashLink>
+                <NavHashLink className='inactiveNavHashLink' smooth to="/#projects">Projects</NavHashLink>
+                <NavHashLink className='inactiveNavHashLink' smooth to="/#contact">Contact</NavHashLink>
+                <Link className='resumeLink' to="/resume">Resume</Link> */}
+
+
                 <NavHashLink className={(navData) => (checkActive(navData) ? 'activeNavHashLink' : 'inactiveNavHashLink')} smooth to="/#about">About</NavHashLink>
                 <NavHashLink className={(navData) => (checkActive(navData) ? 'activeNavHashLink' : 'inactiveNavHashLink')}  smooth to="/#projects">Projects</NavHashLink>
                 <NavHashLink className={(navData) => (checkActive(navData) ? 'activeNavHashLink' : 'inactiveNavHashLink')}  smooth to="/#contact">Contact</NavHashLink>

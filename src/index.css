@@ -2,16 +2,16 @@
   --cosmic-cobalt: #402e8cff;
   --xiketic: #0f0b20ff;
   --slate-blue: #7863d3ff;
-  --gainsboro: #d8dbe2ff;
-  --white: #fbfbfbff;
+  --lavender-white: #AE9EBE;
+  --russian-violet: #43265f;
 }
 
-font-family: 'Abril Fatface', cursive;
+/* font-family: 'Abril Fatface', sans-serif;
 font-family: 'Anonymous Pro', monospace;
-font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Barlow Condensed', sans-serif; */
 
 html {
-  padding: 0
+  padding: 0;
 }
 
 body {

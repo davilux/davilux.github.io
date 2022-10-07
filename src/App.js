@@ -13,16 +13,6 @@ function App() {
         <Route exact path="/about" element={<About />}/>
         <Route exact path="/contact" element={<Contact />}/>
       </ Routes> */}
-
-        <div id="about" style={{height:1000}}>
-          <p>About</p>
-        </div>
-        <div id="projects">
-          <p>Projects</p>
-        </div>
-        <div id="contact">
-          <p>Contact</p>
-        </div>
     </>
   );
 }
