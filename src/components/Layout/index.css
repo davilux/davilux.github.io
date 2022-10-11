@@ -4,7 +4,7 @@ h1{
     font-weight: normal;
     color: var(--lavender-white);
     margin:0;
-    padding:0
+    padding:0;
 }
 /* 
 .top-left-h1{
@@ -36,15 +36,6 @@ h3{
     font-size: 12pt;
     color: var(--russian-violet);
     font-weight: normal;
-}
-
-h4{
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 12pt;
-    color: var(--russian-violet);
-    font-weight: normal;
-    padding-left:50vw;
-    padding-right:50vw;
 }
 
 p{
@@ -85,7 +76,8 @@ main::-webkit-scrollbar {
     border: 4px solid #231B43;
     margin-left: 5vw;
     margin-right: 5vw;
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 /* TODO:

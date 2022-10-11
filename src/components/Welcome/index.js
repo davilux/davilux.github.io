@@ -12,8 +12,6 @@ const Welcome = () => {
                         My mission is to use technology to make the world a better place.
                         </p>
                     </div>
-                    <h4>Scroll down</h4>
-
                 <h3>&nbsp;&nbsp;&lt;/div&gt;</h3>
             </section>
     )
