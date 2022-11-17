@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom'
+// import CssBaseline from '@mui/material/CssBaseline';
+
+//TODO: Implement CSS baseline to keep styling consistent across browsers.
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <CssBaseline /> */}
     <BrowserRouter>
       <App />
     </BrowserRouter>
