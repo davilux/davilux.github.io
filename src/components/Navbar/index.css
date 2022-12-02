@@ -26,21 +26,30 @@
     text-decoration: none;
   }
 
+  nav > * {
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-family:'Barlow Condensed';
+    padding: 10px;
+    margin: 8px; 
+    /* TODO: replace margin with flexbox?  */
+  }
+
   .resumeLink{
-    padding:10px;
     border: 1px solid var(--slate-blue)
   }
 
   .inactiveNavHashLink, .resumeLink{
     color: var(--slate-blue);
-    text-transform: uppercase;
-    font-family:'Barlow Condensed';
-    padding:10px;
-    margin: 20px;
   }
   
   .activeNavHashLink{
     color: white;
-    text-transform: uppercase;
-    font-family:'Barlow Condensed';
   }
+
+@media screen and (min-width: 641px){
+  nav > * {
+    padding: 10px;
+    margin: 20px;
+  }
+}

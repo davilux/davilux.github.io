@@ -52,7 +52,7 @@ const Contact = () => {
       <h3>&nbsp;&nbsp;&lt;form&gt;</h3>
       <div className="purple-box">
         <h1 className="top-left-h1">Contact</h1>
-        <h1 className="right-h1">03</h1>
+        {/* <h1 className="right-h1">03</h1> */}
         <p>
           Feel free to send me an email with job opportunities or interest in
           collaboration.
