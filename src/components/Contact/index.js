@@ -98,10 +98,11 @@ const Contact = () => {
           </Button>
         </form>
       </div>
-      <h3 className="available">davi.availableForWork = true;</h3>
-      <h3>&nbsp;&nbsp;&lt;/form&gt;</h3>
-      <h3>&nbsp;&lt;/body&gt;</h3>
-      <h3>&lt;/html&gt;</h3>
+      <div>
+        <h3>&nbsp;&nbsp;&lt;/form&gt;</h3>
+        <h3>&nbsp;&lt;/body&gt;</h3>
+        <h3>&lt;/html&gt;</h3>
+      </div>
     </section>
   )
 }

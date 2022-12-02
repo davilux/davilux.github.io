@@ -3,7 +3,8 @@ import { Welcome, Projects, About, Contact, Navbar, Footer } from "../index.js"
 
 const Layout = () => {
   return (
-    <main className="layout">
+    // TODO change main to a fragment and .site-body to main?
+    <main>
       <Navbar />
       <section className="site-body">
         <Welcome />
