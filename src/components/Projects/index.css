@@ -1,13 +1,27 @@
 .projects-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 0 0 8px 0;
 }
 
 .project{
     border:1px solid #231B43;
     padding:10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 2px;
+}
+
+.project > span{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1rem;
+    color: var( --slate-blue);
+    font-weight: normal;
+    padding: 4px 2px 2px 20px;
 }
 
 a.gh-link{

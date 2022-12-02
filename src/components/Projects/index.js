@@ -1,4 +1,6 @@
 import "./index.css"
+import FolderIcon from "@mui/icons-material/Folder"
+import FolderOpenIcon from "@mui/icons-material/FolderOpen"
 
 const Projects = () => {
   return (
@@ -23,13 +25,16 @@ const Projects = () => {
         </p>
         <div className="projects-container">
           <div className="project">
-            <p>Webby</p>
+            <FolderIcon />
+            <span> Webby</span>
           </div>
           <div className="project">
-            <p>Magical Merchants</p>
+            <FolderIcon />
+            <span> Magical Merchants</span>
           </div>
           <div className="project">
-            <p>Portfolio</p>
+            <FolderOpenIcon />
+            <span> Portfolio</span>
           </div>
         </div>
       </div>
