@@ -3,7 +3,7 @@ import "./index.css"
 const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h3>&nbsp;&nbsp;&lt;div className= "projects" &gt;</h3>
+      <h3>&nbsp;&nbsp;&lt;section className= "projects"&gt;</h3>
       <div className="purple-box">
         <h1 className="top-right-h1">Projects</h1>
         {/* <h1 className='left-h1'>02</h1> */}
@@ -33,7 +33,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <h3>&nbsp;&nbsp;&lt;/div&gt;</h3>
+      <h3>&nbsp;&nbsp;&lt;/section&gt;</h3>
     </section>
   )
 }

@@ -50,7 +50,7 @@ p {
     font-weight: normal;
 }
 
-.site-body{
+main{
     scroll-snap-type: y mandatory;
     max-height: calc(100vh - 127px);
     overflow-y: scroll;
