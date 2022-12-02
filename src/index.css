@@ -17,7 +17,16 @@ font-family: 'Barlow Condensed', sans-serif; */
 html {
   padding: 0;
   font-size: 16px;
+
+  /* Remove scrollbar but retain scroll behavior */
+  overflow: scroll;
+  overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 
 body {
   margin: 0;
