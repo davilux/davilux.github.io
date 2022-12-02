@@ -9,3 +9,9 @@
     border:1px solid #231B43;
     padding:10px;
 }
+
+a.gh-link{
+    color:#AE9EBE;
+    font-weight: bold;
+    text-decoration: underline;
+}
