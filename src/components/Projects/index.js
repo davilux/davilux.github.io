@@ -19,7 +19,7 @@ const Projects = () => {
           <br />
           <br />
           {/* TODO: Link to GitHub for each project. */}
-          <a href="/" className="gh-link">
+          <a href="/#projects" className="gh-link">
             Check out the project GitHub.
           </a>
         </p>
