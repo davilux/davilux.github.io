@@ -50,6 +50,8 @@ p {
     font-weight: normal;
 }
 
+/* TODO: Solve scroll issue (desktop, when cursor is outside of the primary sections.) */
+
 main{
     scroll-snap-type: y mandatory;
     max-height: calc(100vh - 127px);
