@@ -11,11 +11,14 @@
 
 :root {
   --lavender-white: #e1cff2;
-  --deep-lavender-white: #AE9EBE;
-  --slate-blue: rgb(159, 140, 243);
-  --cosmic-cobalt: #402e8cff;
+  --deep-lavender-white: #ad9dbe;
+  --slate-blue: #9f8cf3;
+  --cosmic-cobalt: #402e8c;
   --russian-violet: #673b90;
-  --xiketic: #0f0b20ff;
+  --xiketic: #0f0b20;
+
+  --transparent-lavender-white: #e1cff200;
+  --transparent-cosmic-cobalt:#402e8c00;
 }
 
 *{
