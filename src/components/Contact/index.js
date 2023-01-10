@@ -1,6 +1,5 @@
 import "./index.css"
 import React, { useState } from "react"
-import { TextField, Button } from "@mui/material"
 
 const Contact = () => {
   const [email, setEmail] = useState("")
@@ -10,8 +9,6 @@ const Contact = () => {
 
   const [errorMessages, setErrorMessages] = useState([])
   const [showErrors, setShowErrors] = useState(false)
-
-  let errors = []
 
   const handleFormSubmission = () => {
     if (validateForm()) {
@@ -30,7 +27,7 @@ const Contact = () => {
 
   const validateForm = () => {
     setErrorMessages([])
-    errors = []
+    let errors = []
 
     if (name === "") errors.push("Name required.")
     if (!validateEmail(email)) errors.push("Invalid email, please try again.")
@@ -38,11 +35,11 @@ const Contact = () => {
     if (message === "") errors.push("Message must not be empty.")
     if (subject === "") errors.push("Subject required.")
     if (errors.length > 0) {
-      setShowErrors({ showErrors: true })
+      setShowErrors(true)
       setErrorMessages(errors)
       return false
     } else {
-      setShowErrors({ showErrors: false })
+      setShowErrors(true)
       return true
     }
   }
@@ -58,44 +55,45 @@ const Contact = () => {
           collaboration.
         </p>
         <form>
-          <TextField
-            label="Name"
+          <section className="top-inputs">
+          <input
             type="text"
-            className="nameField"
+            className = "form-name"
+            placeholder="name"
             onChange={(e) => setName(e.target.value)}
           />
-          <TextField
-            label="Email"
+          <input
             type="email"
+            className = "form-email"
+            placeholder="email"
             onChange={(e) => setEmail(e.target.value)}
           />
-          <TextField
-            label="Subject"
+          <input
             type="text"
+            className = "form-subject"
+            placeholder="subject"
             onChange={(e) => setSubject(e.target.value)}
           />
-          <TextField
-            label="Message"
+          </section>
+          <textarea
             type="text"
-            fullWidth
+            placeholder="message"
             onChange={(e) => setMessage(e.target.value)}
           />
-
-          {showErrors
-            ? errorMessages.map((item, index) => {
-                return <ul key={index}>{item}</ul>
+          {showErrors && <ul> {errorMessages.map((item, index) => {
+                return <li key={index}>{item}</li>
               })
-            : null}
+            } </ul>}
 
-          <Button
+          <button
             color="primary"
             variant="contained"
             type="button"
             onClick={handleFormSubmission}
           >
             {" "}
-            Submit{" "}
-          </Button>
+            send{" "}
+          </button>
         </form>
       </div>
       <div>
