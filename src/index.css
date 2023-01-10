@@ -1,14 +1,25 @@
-:root {
-  --cosmic-cobalt: #402e8cff;
-  --xiketic: #0f0b20ff;
-  --slate-blue: #7863d3ff;
+
+/* Original colors, before I changed them to be high-contrast for accessibility. */
+/* :root {
   --lavender-white: #AE9EBE;
+  --slate-blue: #7863d3ff;
+  --cosmic-cobalt: #402e8cff;
   --russian-violet: #43265f;
+  --xiketic: #0f0b20ff;
+}
+*/
+
+:root {
+  --lavender-white: #e1cff2;
+  --deep-lavender-white: #AE9EBE;
+  --slate-blue: rgb(159, 140, 243);
+  --cosmic-cobalt: #402e8cff;
+  --russian-violet: #673b90;
+  --xiketic: #0f0b20ff;
 }
 
 *{
   box-sizing: border-box;
-  /* border: 1px solid white; */
 }
 
 /* font-family: 'Abril Fatface', sans-serif;

@@ -11,16 +11,14 @@ button {
 	padding:8px 37px;
 	text-decoration:none;
     margin: 10px 0; 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
 }
 
 button:hover {
 	background-color: #9258c8;
-    color:#231B43;
 }
 button:active {
     background-color: #9258c8;
-    color:#231B43;
 }
 
 form {

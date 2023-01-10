@@ -32,8 +32,8 @@ const Contact = () => {
     if (name === "") errors.push("Name required.")
     if (!validateEmail(email)) errors.push("Invalid email, please try again.")
     if (email === "") errors.push("Email required.")
-    if (message === "") errors.push("Message must not be empty.")
     if (subject === "") errors.push("Subject required.")
+    if (message === "") errors.push("Message must not be empty.")
     if (errors.length > 0) {
       setShowErrors(true)
       setErrorMessages(errors)
