@@ -11,15 +11,27 @@ const PageOne = () => {
     Former professional artist, current aspiring cyborg.
     <br />
     <br />
+    My mission is to use technology to make the world a better place.
   </p>
 }
 
-
 const PageTwo = () => {
-  return <p>
-          <p>Technologies I've been working with recently:</p>
-          <div className="technologies-container">
-            <p>
+  return <p> Before I fell in love with code, I was a professional artist.
+    <br />
+    <br />
+    I'm a maker, and my ideas inform my learning. You can often find me awake late at night, studying a technique that will allow me to bring a vision to life.
+         </p>
+}
+
+const PageThree = () => {
+  return <p> This is another page!
+         </p>
+}
+
+const PageFour = () => {
+  return <p> Technologies I've been working with recently:
+              <br />
+              <br />
               JavaScript (ES6+)
               <br />
               Node.js
@@ -30,8 +42,6 @@ const PageTwo = () => {
               <br />
               Express
               <br />
-            </p>
-            <p>
               PostgreSQL
               <br />
               Sequelize
@@ -42,8 +52,6 @@ const PageTwo = () => {
               <br />
               D3
               <br />
-            </p>
-            <p>
               Mocha/Chai
               <br />
               Postman
@@ -54,14 +62,12 @@ const PageTwo = () => {
               <br />
               Adobe Illustrator
               <br />
-            </p>
-            </div>
           </p>
 }
 
 const About = () => {
   const pages = [
-    PageOne(), PageTwo()
+    PageOne(), PageTwo(), PageThree(), PageFour()
   ]
   
   const [currentPage, setCurrentPage] = useState(0)

@@ -10,9 +10,6 @@ const Welcome = () => {
         <h2>Web Developer / JavaScript Engineer</h2>
         <p>
           Code is my favorite creative medium.
-          <br />
-          <br />
-          My mission is to use technology to make the world a better place.
         </p>
       </div>
       <h3>&nbsp;&nbsp;&lt;/section&gt;</h3>
