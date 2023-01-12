@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 50vh;
 }
 
 .opaque-icon{
@@ -12,16 +13,3 @@
 .transparent-icon{
     color: var(--transparent-lavender-white);
 }
-
-/* .about-pages-container > p {
-    height: 300px
-} */
-
-/* 
-.technologies-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-

@@ -8,9 +8,6 @@ const PageOne = () => {
     I'm Davi Lux, 28 year old non-binary software engineer.
     <br />
     <br />
-    Former professional artist, current aspiring cyborg.
-    <br />
-    <br />
     My mission is to use technology to make the world a better place.
   </p>
 }
@@ -83,8 +80,11 @@ const About = () => {
         {/* <h1 className="right-h1">01</h1> */}
         <h2>My pronouns are they/them.</h2>
 
+
         <section className="about-pages-container">
+          <div>
           <ArrowBackIosIcon onClick={prevPage} className={currentPage<=0 ? "transparent-icon" : "opaque-icon"}/>
+          </div>
           {pages[currentPage]}
           <ArrowForwardIosIcon onClick={nextPage} className={currentPage >= pages.length -1 ? "transparent-icon" : "opaque-icon"}/>
         </section>

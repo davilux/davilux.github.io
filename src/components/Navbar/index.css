@@ -8,6 +8,9 @@
     justify-content: flex-end;
     align-items: center;
     background-color: var(--xiketic);
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   
   a:link { 
@@ -52,4 +55,10 @@
     padding: 10px;
     margin: 20px;
   }
+}
+
+@media screen and (min-height: 700px){
+  .nav-bar{
+    position: relative;
+  }   
 }

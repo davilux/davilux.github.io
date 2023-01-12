@@ -6,10 +6,20 @@
     flex-direction:row;
     justify-content:flex-end;
     align-items:center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 /* TODO: clicking  "darkMode = true;" will toggle the site into light mode. */
+/* TODO: sticky footer for mobile, similar to how navbar is styled */
 
 .darkmode{
     padding:10px
 }
+/* 
+@media screen and (min-height: 700px){
+    .footer{
+        position: relative;
+    }  
+} */
