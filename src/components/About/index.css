@@ -1,6 +1,27 @@
+.about-pages-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opaque-icon{
+    color:var(--lavender-white);
+}
+
+.transparent-icon{
+    color: var(--transparent-lavender-white);
+}
+
+/* .about-pages-container > p {
+    height: 300px
+} */
+
+/* 
 .technologies-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
+} */
+
