@@ -2,6 +2,8 @@ import logo from "./logo.svg"
 import { Layout } from "./components/index"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 
+
+//TODO: create site-wide theme
 const theme = createTheme({
   palette: {
     primary: {
@@ -15,9 +17,9 @@ const theme = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
       <Layout />
-    </ThemeProvider>
+    // </ThemeProvider>
   )
 }
 
