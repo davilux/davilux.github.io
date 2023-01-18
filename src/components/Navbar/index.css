@@ -12,19 +12,19 @@
     top: 0;
     left: 0;
   }
-  
-  a:link { 
-    text-decoration: none; 
+
+  a:link {
+    text-decoration: none;
   }
 
   a:visited {
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: none;
   }
-  
+
   a:active {
     text-decoration: none;
   }
@@ -34,7 +34,7 @@
     text-transform: uppercase;
     font-family:'Barlow Condensed';
     padding: 10px;
-    margin: 8px; 
+    margin: 8px;
     /* TODO: replace margin with flexbox?  */
   }
 
@@ -45,7 +45,7 @@
   .inactiveNavHashLink, .resumeLink{
     color: var(--slate-blue);
   }
-  
+
   .activeNavHashLink{
     color: white;
   }
@@ -60,5 +60,5 @@
 @media screen and (min-height: 700px){
   .nav-bar{
     position: relative;
-  }   
+  }
 }

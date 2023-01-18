@@ -63,6 +63,13 @@ main{
     flex-direction: column;
     margin: 20px 0px;
     justify-content: center;
+
+    /* This line prevents the sections from hiding under the navbar when the navlinks are clicked. */
+    scroll-margin-top: 60px;
+}
+
+.contact{
+    margin-bottom: 60px;
 }
 
 .purple-box{
@@ -89,5 +96,6 @@ main{
         min-height: calc(100vh - 115px);
         margin: 0;
         justify-content: space-around;
-    }    
+        scroll-margin-top: 0px;
+    }
 }
