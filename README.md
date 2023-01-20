@@ -9,7 +9,7 @@ Tier 1
 - [x]  click navigation links which will scroll to each of the given sections
 - [ ]  view and/or download resume (via link in navbar)
 
-- [ ]  read about Davi
+- [x]  read about Davi
 
 - [x]  page through different projects to read about them
 - [x]  click links to view the deployed sites and project GitHubs
