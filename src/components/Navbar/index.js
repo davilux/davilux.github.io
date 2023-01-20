@@ -1,7 +1,7 @@
 import './index.css'
 import {Link, useLocation} from 'react-router-dom'
 import {NavHashLink} from 'react-router-hash-link'
-
+import resume from '../../resume.pdf';
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <NavHashLink className="inactiveNavHashLink"  smooth to="/#projects">Projects</NavHashLink>
                 <NavHashLink className="inactiveNavHashLink"  smooth to="/#contact">Contact</NavHashLink>
 
-                <Link className='resumeLink' to="/resume">Resume</Link>
+                <Link className='resumeLink' to={resume} target="_blank" rel="noreferrer noopener">Resume</Link>
             </nav>
         </div>
 

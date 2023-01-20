@@ -1,4 +1,3 @@
-import logo from "./logo.svg"
 import { Layout } from "./components/index"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 

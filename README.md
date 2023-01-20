@@ -25,3 +25,8 @@ Tier 2
 - [ ]  easily switch between light and dark modes
 
 - [ ]  Page through more details about each project
+
+- [ ]  Click links in footer to LinkedIn and LeetCode
+
+
+TODO: Integrate analytics
