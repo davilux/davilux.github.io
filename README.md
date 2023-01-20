@@ -11,15 +11,17 @@ Tier 1
 
 - [ ]  read about Davi
 
-- [ ]  page through different projects to read about them
-- [ ]  click links to view the deployed sites and project GitHubs
+- [x]  page through different projects to read about them
+- [x]  click links to view the deployed sites and project GitHubs
 
 - [x]  submit a contact form
 - [x]  read a helpful message confirming email was sent
 
-- [ ]  view the site on mobile, tablet, and desktop
+- [x]  view the site on mobile, tablet, and desktop
 
 Tier 2
 
 - [ ]  see which section is currently in view by the navbar
 - [ ]  easily switch between light and dark modes
+
+- [ ]  Page through more details about each project
