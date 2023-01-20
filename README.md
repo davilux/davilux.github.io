@@ -7,7 +7,7 @@ Tier 1
 
 - [x]  scroll through a single page to view about, projects, and contact sections
 - [x]  click navigation links which will scroll to each of the given sections
-- [ ]  view and/or download resume (via link in navbar)
+- [x]  view and/or download resume (via link in navbar)
 
 - [x]  read about Davi
 
