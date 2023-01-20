@@ -11,7 +11,8 @@ const Layout = () => {
         <Projects />
         <Contact />
       </main>
-      <Footer />
+      {/* TODO: Implement dark mode and light mode. Turn on footer and include a toggle here. */}
+      {/* <Footer /> */}
     </>
   )
 }

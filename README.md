@@ -9,15 +9,19 @@ Tier 1
 - [x]  click navigation links which will scroll to each of the given sections
 - [ ]  view and/or download resume (via link in navbar)
 
-- [ ]  page through different projects to read about them
-- [ ]  click links to view the deployed sites and project GitHubs
+- [ ]  read about Davi
+
+- [x]  page through different projects to read about them
+- [x]  click links to view the deployed sites and project GitHubs
 
 - [x]  submit a contact form
-- [ ]  read a helpful message confirming email was sent
+- [x]  read a helpful message confirming email was sent
 
-- [ ]  view the site on mobile, tablet, and desktop
+- [x]  view the site on mobile, tablet, and desktop
 
 Tier 2
 
 - [ ]  see which section is currently in view by the navbar
 - [ ]  easily switch between light and dark modes
+
+- [ ]  Page through more details about each project
