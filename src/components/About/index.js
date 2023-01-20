@@ -36,9 +36,7 @@ const About = () => {
           <div>
           <ArrowBackIosIcon onClick={prevPage} className={currentPage<=0 ? "transparent-icon" : "opaque-icon"}/>
           </div>
-          <p>
-          {pages[currentPage].text}
-          </p>
+          <p>{pages[currentPage].text}</p>
           <br />
           <br />
           <ArrowForwardIosIcon onClick={nextPage} className={currentPage >= pages.length -1 ? "transparent-icon" : "opaque-icon"}/>
