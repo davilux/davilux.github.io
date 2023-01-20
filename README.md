@@ -26,5 +26,7 @@ Tier 2
 
 - [ ]  Page through more details about each project
 
+- [ ]  Click links in footer to LinkedIn and LeetCode
+
 
 TODO: Integrate analytics
