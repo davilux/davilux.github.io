@@ -27,8 +27,6 @@ const Navbar = () => {
 
         // TODO: Make sure link becomes active/inactive when you scroll to/away from a section (not just when you click a link)
 
-        //TODO: Make sure links scroll to the top of sections. This currently breaks when viewport height is shorter than the section.
-
         //I think I can use document.querySelector("#about").getBoundingClientRect()) to check the bounds of an element and compare them to the current viewport.
     )
 }

@@ -3,7 +3,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 50vh;
+}
+
+.about-pages-container > p {
+    white-space: pre-line;
 }
 
 .opaque-icon{

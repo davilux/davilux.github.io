@@ -3,70 +3,21 @@ import { useState } from 'react';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
-const PageOne = () => {
-  return <p>
-    I'm Davi Lux, 28 year old non-binary software engineer.
-    <br />
-    <br />
-    My mission is to use technology to make the world a better place.
-  </p>
-}
-
-const PageTwo = () => {
-  return <p> Before I fell in love with code, I was a professional artist.
-    <br />
-    <br />
-    I'm a maker, and my ideas inform my learning. You can often find me awake late at night, studying a technique that will allow me to bring a vision to life.
-         </p>
-}
-
-const PageThree = () => {
-  return <p> This is another page!
-         </p>
-}
-
-const PageFour = () => {
-  return <p> Technologies I've been working with recently:
-              <br />
-              <br />
-              JavaScript (ES6+)
-              <br />
-              Node.js
-              <br />
-              React
-              <br />
-              Redux
-              <br />
-              Express
-              <br />
-              PostgreSQL
-              <br />
-              Sequelize
-              <br />
-              HTML5
-              <br />
-              CSS3
-              <br />
-              D3
-              <br />
-              Mocha/Chai
-              <br />
-              Postman
-              <br />
-              Git/GitHub
-              <br />
-              Heroku
-              <br />
-              Adobe Illustrator
-              <br />
-          </p>
-}
-
 const About = () => {
+
+  class Page {
+    constructor(text){
+      this.text = text
+    }
+  }
+
   const pages = [
-    PageOne(), PageTwo(), PageThree(), PageFour()
+    new Page(`I'm Davi Lux, 28 year old non-binary software engineer.\n\n\nMy mission is to use technology to make the world a better place.`),
+    new Page(`Before I fell in love with code, I was a professional artist.\n\n\nI'm a maker, and my ideas inform my learning. You can often find me awake late at night, studying a technique that will allow me to bring a vision to life.`),
+    new Page(`I LOVE learning and teaching. My passions include queer issues, equity, communication, and consent.\n\n\n In my free time, I volunteer as an Event Lead at the Chicago Full Moon Jam, a community organization dedicated to supporting the fire spinning community. I'm also on the Consent Team for Great Lakes Flow Retreat.`),
+    new Page(`Technologies I've been working with recently:\n\nJavaScript (ES6+)\nNode.js\nReact\nRedux\nExpress\nPostgreSQL\nSequelize\nHTML5\nCSS3\nD3\nMocha/Chai\nPostman\nGit/GitHub\nHeroku\nAdobe Illustrator`)
   ]
-  
+
   const [currentPage, setCurrentPage] = useState(0)
 
   const nextPage = () => {if(currentPage < pages.length - 1) setCurrentPage(currentPage + 1)}
@@ -85,7 +36,9 @@ const About = () => {
           <div>
           <ArrowBackIosIcon onClick={prevPage} className={currentPage<=0 ? "transparent-icon" : "opaque-icon"}/>
           </div>
-          {pages[currentPage]}
+          <p>{pages[currentPage].text}</p>
+          <br />
+          <br />
           <ArrowForwardIosIcon onClick={nextPage} className={currentPage >= pages.length -1 ? "transparent-icon" : "opaque-icon"}/>
         </section>
       </div>
@@ -95,3 +48,5 @@ const About = () => {
 }
 
 export default About
+
+//TODO: Link to a gallery of my artwork.
