@@ -16,11 +16,11 @@ class Project {
 const Projects = () => {
 
   const portfolioSite = new Project('Portfolio', 'portfolioSite',
-  `The site you're viewing right now is my portfolio. I designed it in Figma and built it using React, Material UI, and Heroku. I look forward to updating it over the years.`, 'https://github.com/davilux/portfolio-site')
+  `The site you're viewing right now is my portfolio. I designed it in Figma and built it using React, Material UI, and Heroku.\n\n\nI look forward to updating it over the years.`, 'https://github.com/davilux/portfolio-site')
 
-  const webby = new Project('Webby', 'webby', 'Webby is a social app designed to connect people to engage in hobbies together.', 'https://github.com/THEM-exclamationpoint/Webby', 'https://webby-social.netlify.app/')
+  const webby = new Project('Webby', 'webby', 'Webby is a social app designed to connect people using a visual web so that they can engage in hobbies together.\n\n\n It is built using Firebase, React, and Geoapify. I made the SVG web using the D3 framework.', 'https://github.com/THEM-exclamationpoint/Webby', 'https://webby-social.netlify.app/')
 
-  const magicalMerchants = new Project('Magical Merchants', 'magicalMerchants', 'An e-commerce store selling magical items.', 'https://github.com/Magical-Merchants/magicalMerchants2.0', 'http://magical-merchants.herokuapp.com/')
+  const magicalMerchants = new Project('Magical Merchants', 'magicalMerchants', 'Magical Merchants is an e-commerce store selling fantasy items, such as those you\'d find in a roleplay game.\n\n\nWe built it using React, Sequelize, Postgres, Express, and Heroku.', 'https://github.com/Magical-Merchants/magicalMerchants2.0', 'http://magical-merchants.herokuapp.com/')
 
   const allProjects = [webby, magicalMerchants, portfolioSite]
 
@@ -36,9 +36,9 @@ const Projects = () => {
       <div className="purple-box">
         <h1 className="top-right-h1">Projects</h1>
         {/* <h1 className='left-h1'>02</h1> */}
-        <p>
-          {currentProject.description}<br /><br />
-          <a href={currentProject.ghLink} className="gh-link" target="_blank" rel="noreferrer noopener">Project GitHub</a><br /><br />
+        <p className="project-description"> {currentProject.description} </p>
+        <p className="project-links">
+        <a href={currentProject.ghLink} className="gh-link" target="_blank" rel="noreferrer noopener">GitHub</a><br />
           {currentProject.deployedLink && <a href={currentProject.deployedLink} className="gh-link" target="_blank" rel="noreferrer noopener">Deployed site</a> }
         </p>
         <div className="projects-container">
@@ -62,5 +62,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-//TODO: Create line spaces within descriptions.
