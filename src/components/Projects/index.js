@@ -46,7 +46,7 @@ const Projects = () => {
           {allProjects.map((p)=> {
             return (
               <div className="project" id={p.id} key={p.id} onClick={(e) => {
-                const current = getProjectById(e.target.id)
+                const current = getProjectById(e.currentTarget.id)
                 setCurrentProject(current)
               }}>
                 {currentProject.name === p.name ? <FolderOpenIcon /> : <FolderIcon />}
@@ -63,13 +63,4 @@ const Projects = () => {
 
 export default Projects
 
-
-//Any of the project icons/names can be clicked to display more information about that project.
-
-//Project object contains name, info, ghLink and deployedLink.
-
-//currently selected project has an open folder icon.
-
-
 //TODO: Create line spaces within descriptions.
-//TODO: Make it possible to click anywhere on the project div to select a given project
