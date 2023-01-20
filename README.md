@@ -25,3 +25,6 @@ Tier 2
 - [ ]  easily switch between light and dark modes
 
 - [ ]  Page through more details about each project
+
+
+TODO: Integrate analytics
