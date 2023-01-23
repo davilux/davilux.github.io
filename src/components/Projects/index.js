@@ -16,7 +16,7 @@ class Project {
 const Projects = () => {
 
   const portfolioSite = new Project('Portfolio', 'portfolioSite',
-  `The site you're viewing right now is my portfolio. I designed it in Figma and built it using React, Material UI, and Heroku.\n\n\nI look forward to updating it over the years.`, 'https://github.com/davilux/portfolio-site')
+  `The site you're viewing right now is my portfolio. I designed it in Figma and built it using React, Material UI, and GitHub Pages.\n\n\nI look forward to updating it over the years.`, 'https://github.com/davilux/portfolio-site')
 
   const webby = new Project('Webby', 'webby', 'Webby is a social app designed to connect people using a visual web so that they can engage in hobbies together.\n\n\n It is built using Firebase, React, and Geoapify. I made the SVG web using the D3 framework.', 'https://github.com/THEM-exclamationpoint/Webby', 'https://webby-social.netlify.app/')
 
