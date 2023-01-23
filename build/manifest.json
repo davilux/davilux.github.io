@@ -1,0 +1,6 @@
+{
+  "short_name": "Portfolio",
+  "name": "Davi Lux's Portfolio Site",
+  "start_url": ".",
+  "display": "standalone"
+}
