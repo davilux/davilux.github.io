@@ -11,6 +11,11 @@
     right: 0;
 }
 
+.footer > * {
+    margin: 10px;
+    color: var(--cosmic-cobalt);
+}
+
 .darkmode{
     padding:10px
 }

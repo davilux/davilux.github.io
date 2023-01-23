@@ -12,7 +12,7 @@ const Layout = () => {
         <Contact />
       </main>
       {/* TODO: Implement dark mode and light mode. Turn on footer and include a toggle here. */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
