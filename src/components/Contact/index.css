@@ -8,10 +8,15 @@ button {
     border-radius:3px;
 	border:2px solid var(--lavender-white);
     font-size:1rem;
-	padding:8px 37px;
 	text-decoration:none;
-    margin: 10px 0; 
+    margin: 10px 0;
     font-family: Arial, sans-serif;
+    padding: 3px 5px 1px 5px;
+}
+
+.send-icon{
+    transform: scale(.7);
+    margin: 0;
 }
 
 button:hover {
@@ -19,6 +24,11 @@ button:hover {
 }
 button:active {
     background-color: #9258c8;
+}
+
+.button-container{
+    display: flex;
+    justify-content: right;
 }
 
 form {
@@ -32,11 +42,11 @@ form {
     color: var(--lavender-white);;
     opacity: 1; /* Firefox */
 }
-  
+
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: var(--lavender-white);
 }
-  
+
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: var(--lavender-white);
 }
@@ -46,13 +56,13 @@ input, textarea {
     font-size: 1rem;
     border-width: 2px;
     border-color: var(--lavender-white);
-    background-color: var(--russian-violet);
+    background-color:  #2f1446;
     color: #ffffff;
     border-style: solid;
     border-radius: 2px;
     margin: 10px 0px;
-    font-family: Arial, sans-serif;   
-    
+    font-family: Arial, sans-serif;
+
     font-size: 1rem;
 }
 
