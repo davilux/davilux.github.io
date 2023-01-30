@@ -8,11 +8,15 @@ button {
     border-radius:3px;
 	border:2px solid var(--lavender-white);
     font-size:1rem;
-	padding:8px 37px;
 	text-decoration:none;
     margin: 10px 0;
     font-family: Arial, sans-serif;
-    width: 200px;
+    padding: 3px 5px 1px 5px;
+}
+
+.send-icon{
+    transform: scale(.7);
+    margin: 0;
 }
 
 button:hover {

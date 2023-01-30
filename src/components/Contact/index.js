@@ -2,6 +2,7 @@ import "./index.css"
 import React, { useState, useRef } from "react"
 import emailjs from '@emailjs/browser';
 import { clear } from "@testing-library/user-event/dist/clear";
+import SendIcon from '@mui/icons-material/Send';
 
 const Contact = () => {
   const [email, setEmail] = useState("")
@@ -130,7 +131,7 @@ const Contact = () => {
             onClick={handleFormSubmission}
           >
             {" "}
-            send{" "}
+            <SendIcon className="send-icon" />{" "}
           </button></div>
         </form>
       </div>
