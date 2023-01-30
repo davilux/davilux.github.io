@@ -122,7 +122,7 @@ const Contact = () => {
               })
             } </ul>}
           {emailSent && <p>Email sent!</p>}
-
+          <div className="button-container">
           <button
             color="primary"
             variant="contained"
@@ -131,7 +131,7 @@ const Contact = () => {
           >
             {" "}
             send{" "}
-          </button>
+          </button></div>
         </form>
       </div>
       <div>
